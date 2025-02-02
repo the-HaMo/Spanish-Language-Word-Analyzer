@@ -264,7 +264,7 @@ def menu():
             valores_cadena = [str(valor) for valor in valores]
             print(clave, ";".join(valores_cadena), file=fsal, sep=";")
         fsal.close()
-        print("Adios!")
+        print("Adios!, se ha generado el")
         exit(0)
 
 if __name__ == "__main__":
